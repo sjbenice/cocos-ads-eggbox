@@ -1,0 +1,116 @@
+# Google
+<script src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"></script>
+    <meta name="ad.orientation" content="portrait">
+    <meta name="ad.size" content="width=320,height=480">
+    <meta name="ad.orientation" content="landscape">
+    <meta name="ad.size" content="width=480,height=320">
+
+# Luna
+<script>
+    (()=>{
+        const _getAssetName = function(e) {
+            return `assets/${decodeURI(e).split("?").shift().replace(/^(\/|\.\/)/g, "").replace(/\/| /g, "_")}`
+        };
+        (function() {
+            window.Luna || (window.Luna = {}),
+            window.Luna.getField = function(e, t, n) {
+                return window.Luna.Unity.Playground.get("Fields", e, t, n)
+            },
+            window.Luna.getAsset = function(e) {
+                return fetch(_getAssetName(e))
+            },
+            window.Luna.addAssets = function() {},
+            window.Luna.setFields = function() {},
+            window.Luna.setTitle = function() {},
+            window.Luna.setIcon = function() {}
+        })()
+    })()
+</script>
+
+# AppLovin, IronSource, Moloco, Unity, UnityEC
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0ZC63K2RC"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());  
+    gtag('config', 'G-D0ZC63K2RC');
+</script>
+
+# IronSource
+    function audioVolumeChangeCallback(e){}
+    function onReadyCallback()
+    {
+        dapi.removeEventListener("ready",onReadyCallback);dapi.getAudioVolume();dapi.getScreenSize();
+        dapi.addEventListener("audioVolumeChange",audioVolumeChangeCallback);
+    }
+    window.addEventListener("load",function(){
+        dapi.isReady() ? onReadyCallback() : dapi.addEventListener("ready",onReadyCallback)});
+    dapi.addEventListener("audioVolumeChange",audioVolumeChangeCallback);
+
+# AppLovin, Liftoff, Unity, SnapChat?
+<script src="mraid.js"></script>
+
+# Common
+<script>
+    // Mintegral
+    // function gameStart() {super_boot_engine();}
+    // function gameClose() {}
+
+    var clickTag = "";
+    var clickTag1 = "https://apps.apple.com/us/app/klondike-adventures-farm-game/id1127240206";
+    var clickTag2 = "https://play.google.com/store/apps/details?id=com.vizorapps.klondike";
+    const audio = new Audio();audio.volume = 0.5;
+    const iosQuirkPresent = audio.volume === 1;
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    const isAppleDevice = navigator.userAgent.includes("Macintosh");
+    const isTouchScreen = navigator.maxTouchPoints >= 1;
+    const iosCheck = (isIOS || (isAppleDevice && (isTouchScreen || iosQuirkPresent)));
+    if(iosCheck)clickTag = clickTag1;else clickTag = clickTag2;
+    if(typeof clickTag !== undefined)console.info("Set clickTag to " + clickTag);
+
+    // function getMobileOperatingSystem() {
+    //     var userAgent = navigator.userAgent || navigator.vendor || window["opera"];
+    //     if (/windows phone/i.test(userAgent)) {
+    //         return "Windows Phone";
+    //     }
+    //     if (/android/i.test(userAgent)) {
+    //         return "Android";
+    //     }
+    //     if (/iPad|iPhone|iPod/.test(userAgent) && !window["MSStream"]) {
+    //         return "iOS";
+    //     }
+    //     return "unknown";
+    // }
+
+    window.event_html = {
+        version:1,
+        hideSoundButton:0,// 1: Liftoff, IronSource
+        hideAllButton:0,// 1 : Google
+        rightLogo:0,// 1 : IronSource
+        network:'AppLovin',
+
+        redirect: function() {
+            window.location.href = clickTag;
+        },
+        download: function() {
+            if (typeof clickTag !== "undefined") {
+                if (typeof mraid !== "undefined")
+                    mraid.open(clickTag);// window.mraid?
+                else
+                    window.open(clickTag);// Google, NOT mraid;ExitApi.exit()???
+            }
+            // FbPlayableAd.onCTAClick();// Moloco&Facebook, NOT mraid
+            // dapi.openStoreUrl();// IronSource, NOT mraid
+            // parent.postMessage('download', '*');// Vungle, NOT mraid
+            // window.install && window.install();// Mintegral, NOT mraid
+        },
+        // game_ready: function() {// Mintegral
+        //     window.gameReady && window.gameReady();
+        // },
+        // game_end: function() {
+        //     window.gameEnd && window.gameEnd();// Mintegral
+        //     parent.postMessage("complete","*");// Vungle
+        // },
+    };
+  
+</script>

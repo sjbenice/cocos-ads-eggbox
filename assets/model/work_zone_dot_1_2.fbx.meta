@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d5812bb3-3adc-4e51-9761-e75252aa56eb",
+  "files": [],
+  "subMetas": {
+    "a62fe": {
+      "importer": "gltf-mesh",
+      "uuid": "d5812bb3-3adc-4e51-9761-e75252aa56eb@a62fe",
+      "displayName": "",
+      "id": "a62fe",
+      "name": "Scene.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 152
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "55cbd": {
+      "importer": "gltf-material",
+      "uuid": "d5812bb3-3adc-4e51-9761-e75252aa56eb@55cbd",
+      "displayName": "",
+      "id": "55cbd",
+      "name": "All_atlas.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c64b5": {
+      "importer": "gltf-scene",
+      "uuid": "d5812bb3-3adc-4e51-9761-e75252aa56eb@c64b5",
+      "displayName": "",
+      "id": "c64b5",
+      "name": "work_zone_dot_1_2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "d5812bb3-3adc-4e51-9761-e75252aa56eb@c64b5",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d5812bb3-3adc-4e51-9761-e75252aa56eb@a62fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d5812bb3-3adc-4e51-9761-e75252aa56eb@55cbd"
+      ],
+      "scenes": [
+        "d5812bb3-3adc-4e51-9761-e75252aa56eb@c64b5"
+      ]
+    }
+  }
+}

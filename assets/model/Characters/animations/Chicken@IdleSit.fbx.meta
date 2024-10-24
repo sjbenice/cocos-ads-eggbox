@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0d4db2b7-d20e-42fc-a4dc-1143f66130d6",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "b6a36": {
+      "importer": "gltf-animation",
+      "uuid": "0d4db2b7-d20e-42fc-a4dc-1143f66130d6@b6a36",
+      "displayName": "",
+      "id": "b6a36",
+      "name": "idleSit.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "d33e3": {
+      "importer": "gltf-scene",
+      "uuid": "0d4db2b7-d20e-42fc-a4dc-1143f66130d6@d33e3",
+      "displayName": "",
+      "id": "d33e3",
+      "name": "Chicken@IdleSit.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 4,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idleSit",
+            "from": 0,
+            "to": 4,
+            "wrapMode": 2,
+            "previousId": "b6a36"
+          }
+        ]
+      }
+    ],
+    "redirect": "0d4db2b7-d20e-42fc-a4dc-1143f66130d6@d33e3",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "0d4db2b7-d20e-42fc-a4dc-1143f66130d6@d33e3"
+      ]
+    }
+  }
+}

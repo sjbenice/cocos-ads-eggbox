@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b8f7a196-0610-4415-8ff1-fbad9d7190b7",
+  "files": [],
+  "subMetas": {
+    "ccd6b": {
+      "importer": "gltf-mesh",
+      "uuid": "b8f7a196-0610-4415-8ff1-fbad9d7190b7@ccd6b",
+      "displayName": "",
+      "id": "ccd6b",
+      "name": "Cube_002.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 308
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c491": {
+      "importer": "gltf-material",
+      "uuid": "b8f7a196-0610-4415-8ff1-fbad9d7190b7@1c491",
+      "displayName": "",
+      "id": "1c491",
+      "name": "Egg.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7e3c": {
+      "importer": "gltf-scene",
+      "uuid": "b8f7a196-0610-4415-8ff1-fbad9d7190b7@a7e3c",
+      "displayName": "",
+      "id": "a7e3c",
+      "name": "HarvestRooms@Egg.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "b8f7a196-0610-4415-8ff1-fbad9d7190b7@a7e3c",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b8f7a196-0610-4415-8ff1-fbad9d7190b7@ccd6b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b8f7a196-0610-4415-8ff1-fbad9d7190b7@1c491"
+      ],
+      "scenes": [
+        "b8f7a196-0610-4415-8ff1-fbad9d7190b7@a7e3c"
+      ]
+    }
+  }
+}

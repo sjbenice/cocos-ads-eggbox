@@ -1,0 +1,248 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e39c7676-110a-40f9-8cde-65bafe23c8f6",
+  "files": [],
+  "subMetas": {
+    "ddfb5": {
+      "importer": "gltf-mesh",
+      "uuid": "e39c7676-110a-40f9-8cde-65bafe23c8f6@ddfb5",
+      "displayName": "",
+      "id": "ddfb5",
+      "name": "SM_Sack01_1.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1240
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc860": {
+      "importer": "gltf-embeded-image",
+      "uuid": "e39c7676-110a-40f9-8cde-65bafe23c8f6@bc860",
+      "displayName": "",
+      "id": "bc860",
+      "name": "T_Sack01_D3.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "d20fc": {
+      "importer": "texture",
+      "uuid": "e39c7676-110a-40f9-8cde-65bafe23c8f6@d20fc",
+      "displayName": "",
+      "id": "d20fc",
+      "name": "T_Sack01_D3.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e39c7676-110a-40f9-8cde-65bafe23c8f6@bc860"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a8fc": {
+      "importer": "gltf-material",
+      "uuid": "e39c7676-110a-40f9-8cde-65bafe23c8f6@4a8fc",
+      "displayName": "",
+      "id": "4a8fc",
+      "name": "T_Sack01_D3_Mat.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a237d": {
+      "importer": "gltf-scene",
+      "uuid": "e39c7676-110a-40f9-8cde-65bafe23c8f6@a237d",
+      "displayName": "",
+      "id": "a237d",
+      "name": "Decor@Sack.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "T_Sack01_D3.png",
+        "uri": "e39c7676-110a-40f9-8cde-65bafe23c8f6@bc860"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "e39c7676-110a-40f9-8cde-65bafe23c8f6@a237d",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e39c7676-110a-40f9-8cde-65bafe23c8f6@ddfb5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e39c7676-110a-40f9-8cde-65bafe23c8f6@d20fc"
+      ],
+      "materials": [
+        "e39c7676-110a-40f9-8cde-65bafe23c8f6@4a8fc"
+      ],
+      "scenes": [
+        "e39c7676-110a-40f9-8cde-65bafe23c8f6@a237d"
+      ]
+    },
+    "materials": {
+      "e39c7676-110a-40f9-8cde-65bafe23c8f6@4a8fc": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "albedoScale": {
+              "__type__": "cc.Vec3",
+              "x": 2,
+              "y": 2,
+              "z": 2
+            },
+            "roughness": 0,
+            "specularIntensity": 0,
+            "mainTexture": {
+              "__uuid__": "e39c7676-110a-40f9-8cde-65bafe23c8f6@d20fc",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

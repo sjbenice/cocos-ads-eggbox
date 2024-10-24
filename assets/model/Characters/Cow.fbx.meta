@@ -1,0 +1,280 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "84493": {
+      "importer": "gltf-embeded-image",
+      "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@84493",
+      "displayName": "",
+      "id": "84493",
+      "name": "T_Cow_A_PNG.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "d6ab1": {
+      "importer": "gltf-mesh",
+      "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@d6ab1",
+      "displayName": "",
+      "id": "d6ab1",
+      "name": "SM_Cow_2.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1209
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "201de": {
+      "importer": "gltf-animation",
+      "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@201de",
+      "displayName": "",
+      "id": "201de",
+      "name": "CINEMA_4D_Main.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9666666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 22
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "168d4": {
+      "importer": "texture",
+      "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@168d4",
+      "displayName": "",
+      "id": "168d4",
+      "name": "T_Cow_A_PNG.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@84493"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e4da4": {
+      "importer": "gltf-material",
+      "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@e4da4",
+      "displayName": "",
+      "id": "e4da4",
+      "name": "Cow.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f5cb": {
+      "importer": "gltf-scene",
+      "uuid": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@4f5cb",
+      "displayName": "",
+      "id": "4f5cb",
+      "name": "Cow.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "T_Cow_A_PNG.png",
+        "uri": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@84493"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@4f5cb",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@d6ab1"
+      ],
+      "skeletons": [
+        "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@438fe"
+      ],
+      "textures": [
+        "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@168d4"
+      ],
+      "materials": [
+        "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@e4da4"
+      ],
+      "scenes": [
+        "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@4f5cb"
+      ]
+    },
+    "materials": {
+      "3abee7f0-5a9c-40bb-9132-9b7f0fb02e1d@e4da4": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "c5d04ebe-499e-4ff4-bfac-c29ecde630c0@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 1.5,
+            "shininessExponent": 1
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 1.9666666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "CINEMA_4D_Main",
+            "from": 0,
+            "to": 1.9666666984558105,
+            "wrapMode": 2,
+            "previousId": "201de"
+          }
+        ]
+      }
+    ]
+  }
+}

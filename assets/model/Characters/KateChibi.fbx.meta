@@ -1,0 +1,238 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "11be8543-ca0f-444d-8f9a-a8b86dacc60e",
+  "files": [],
+  "subMetas": {
+    "af868": {
+      "importer": "gltf-mesh",
+      "uuid": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@af868",
+      "displayName": "",
+      "id": "af868",
+      "name": "Kate.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1966
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 25
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4bf05": {
+      "importer": "gltf-embeded-image",
+      "uuid": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@4bf05",
+      "displayName": "",
+      "id": "4bf05",
+      "name": "kate_albedo.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7582b": {
+      "importer": "texture",
+      "uuid": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@7582b",
+      "displayName": "",
+      "id": "7582b",
+      "name": "kate_albedo.png.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@4bf05"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9bd8d": {
+      "importer": "gltf-material",
+      "uuid": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@9bd8d",
+      "displayName": "",
+      "id": "9bd8d",
+      "name": "M_ChibiKate.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "24b59": {
+      "importer": "gltf-scene",
+      "uuid": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@24b59",
+      "displayName": "",
+      "id": "24b59",
+      "name": "KateChibi.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "kate_albedo.png",
+        "uri": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@4bf05"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "11be8543-ca0f-444d-8f9a-a8b86dacc60e@24b59",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "11be8543-ca0f-444d-8f9a-a8b86dacc60e@af868"
+      ],
+      "skeletons": [
+        "11be8543-ca0f-444d-8f9a-a8b86dacc60e@438fe"
+      ],
+      "textures": [
+        "11be8543-ca0f-444d-8f9a-a8b86dacc60e@7582b"
+      ],
+      "materials": [
+        "11be8543-ca0f-444d-8f9a-a8b86dacc60e@9bd8d"
+      ],
+      "scenes": [
+        "11be8543-ca0f-444d-8f9a-a8b86dacc60e@24b59"
+      ]
+    },
+    "materials": {
+      "11be8543-ca0f-444d-8f9a-a8b86dacc60e@9bd8d": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "39088b75-f2c5-48a2-996d-1e67246e0aa0@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 1.4
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

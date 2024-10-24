@@ -1,0 +1,182 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8dc09632-2601-4c3f-be54-d38946b70897",
+  "files": [],
+  "subMetas": {
+    "45f47": {
+      "importer": "gltf-mesh",
+      "uuid": "8dc09632-2601-4c3f-be54-d38946b70897@45f47",
+      "displayName": "",
+      "id": "45f47",
+      "name": "EggsBox.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1280
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06202": {
+      "importer": "gltf-material",
+      "uuid": "8dc09632-2601-4c3f-be54-d38946b70897@06202",
+      "displayName": "",
+      "id": "06202",
+      "name": "box.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c491": {
+      "importer": "gltf-material",
+      "uuid": "8dc09632-2601-4c3f-be54-d38946b70897@1c491",
+      "displayName": "",
+      "id": "1c491",
+      "name": "Egg.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f7a20": {
+      "importer": "gltf-scene",
+      "uuid": "8dc09632-2601-4c3f-be54-d38946b70897@f7a20",
+      "displayName": "",
+      "id": "f7a20",
+      "name": "HarvestRooms@EggsBox.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "8dc09632-2601-4c3f-be54-d38946b70897@f7a20",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8dc09632-2601-4c3f-be54-d38946b70897@45f47"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "8dc09632-2601-4c3f-be54-d38946b70897@06202",
+        "8dc09632-2601-4c3f-be54-d38946b70897@1c491"
+      ],
+      "scenes": [
+        "8dc09632-2601-4c3f-be54-d38946b70897@f7a20"
+      ]
+    },
+    "materials": {
+      "8dc09632-2601-4c3f-be54-d38946b70897@1c491": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "albedoScale": 1.1
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

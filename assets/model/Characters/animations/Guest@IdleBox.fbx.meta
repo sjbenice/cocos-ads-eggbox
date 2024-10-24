@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "33dd07f4-34d2-46e1-bfc9-957dc8d642e4",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c814f": {
+      "importer": "gltf-animation",
+      "uuid": "33dd07f4-34d2-46e1-bfc9-957dc8d642e4@c814f",
+      "displayName": "",
+      "id": "c814f",
+      "name": "idleBox.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.299999952316284
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "134ca": {
+      "importer": "gltf-scene",
+      "uuid": "33dd07f4-34d2-46e1-bfc9-957dc8d642e4@134ca",
+      "displayName": "",
+      "id": "134ca",
+      "name": "Guest@IdleBox.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 2.299999952316284,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "idleBox",
+            "from": 0,
+            "to": 2.299999952316284,
+            "wrapMode": 2,
+            "previousId": "c814f"
+          }
+        ]
+      }
+    ],
+    "redirect": "33dd07f4-34d2-46e1-bfc9-957dc8d642e4@134ca",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "33dd07f4-34d2-46e1-bfc9-957dc8d642e4@134ca"
+      ]
+    }
+  }
+}

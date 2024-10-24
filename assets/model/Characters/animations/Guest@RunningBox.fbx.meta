@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "229aee93-d123-472e-86ad-0a182f8ca8bc",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "46bf4": {
+      "importer": "gltf-animation",
+      "uuid": "229aee93-d123-472e-86ad-0a182f8ca8bc@46bf4",
+      "displayName": "",
+      "id": "46bf4",
+      "name": "RunningBox.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.2666666507720947
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "c8118": {
+      "importer": "gltf-scene",
+      "uuid": "229aee93-d123-472e-86ad-0a182f8ca8bc@c8118",
+      "displayName": "",
+      "id": "c8118",
+      "name": "Guest@RunningBox.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "CINEMA_4D_Main",
+        "duration": 1.2666666507720947,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "RunningBox",
+            "from": 0,
+            "to": 1.2666666507720947,
+            "wrapMode": 2,
+            "previousId": "46bf4"
+          }
+        ]
+      }
+    ],
+    "redirect": "229aee93-d123-472e-86ad-0a182f8ca8bc@c8118",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "229aee93-d123-472e-86ad-0a182f8ca8bc@c8118"
+      ]
+    }
+  }
+}
